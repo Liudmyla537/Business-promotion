@@ -53,10 +53,15 @@
 
                 <ul class="hero-list">
                     <li class="hero-item">
-                        <button class="hero-btn" type="Get started">Get started</button>
+                        <button class="hero-btn" type="button">Get started</button>
                     </li>
                     <li>
-                        <button class="hero-btn-video" link="Watch the Video">Watch the Video</button>
+                        <div class="video-btn">
+                            <svg class="icon-video" width="20" height="18">
+                                <use href="./images/icons.svg#icon-video"></use>
+                            </svg>
+                            <button class="hero-btn-video" link="Watch the Video">Watch the Video</button>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -232,7 +237,6 @@
 
         <!--#endregion Staff-->
 
-
         <!--#region Strategies-->
         <section class="container container-strategies">
             <h2 class="strategies-title">Contents Strategies</h2>
@@ -265,116 +269,223 @@
 
         <!--#region Pricing-->
         <section class="container container-pricing">
-            <h2 class="pricing-title">Price Table</h2>
-            <p class="pricing-text">We offer competitive price</p>
-            <ul class="pricing-list">
-                <li class="pricing-items">
-                    <h3 class="pricing-subtitle">Free</h3>
-                    <p class="pricing-subtext">Brief price description</p>
-                    <p class="pricing-cost">0</p>
-                    <p class="pricing-currency">$</p>
-                    <p class="pricing-per-month">Per / month</p>
-                    <ul class="pricing-sublist">
-                        <li class="pricing-subitems">
-                            <p>Only 2 Operators</p>
-                            <p>Notifications</p>
-                            <p>Landing Pages</p>
-                        </li>
-                        <button type="Order Now"></button>
-                    </ul>
-                </li>
-                <li class="Pricing-items">
-                    <h3 class="pricing-subtitle">Standard</h3>
-                    <p class="pricing-subtext">Brief price description</p>
-                    <p class="pricing-cost">5</p>
-                    <p class="pricing-currency">$</p>
-                    <p class="pricing-per-month">Per / month</p>
-                    <ul class="pricing-sublist">
-                        <li class="pricing-subitems">
-                            <p>5+ Operators</p>
-                            <p>Notifications</p>
-                            <p>Landing Pages</p>
-                        </li>
-                        <button type="Order Now"></button>
-                    </ul>
-                </li>
-                <li class="Pricing-items">
-                    <h3 class="pricing-subtitle">Premium</h3>
-                    <p class="pricing-subtext">Brief price description</p>
-                    <p class="pricing-cost">10</p>
-                    <p class="pricing-currency">$</p>
-                    <p class="pricing-per-month">Per / month</p>
-                    <ul class="pricing-sublist">
-                        <li class="pricing-subitems">
-                            <p>10+ Operators</p>
-                            <p>Notifications</p>
-                            <p>Landing Pages</p>
-                        </li>
-                        <button type="Order Now"></button>
-                    </ul>
-                </li>
-            </ul>
+            <div class="pricing">
+                <h2 class="pricing-title">Price Table</h2>
+                <p class="pricing-text">We offer competitive price</p>
+                <ul class="pricing-list">
+                    <li class="pricing-items">
+                        <h3 class="pricing-subtitle">Free</h3>
+                        <p class="pricing-subtext">Brief price description</p>
+                        <div class="pricing-card">
+                            <p class="pricing-cost">0</p>
+                            <div class="pricing-price">
+                                <p class="pricing-currency">$</p>
+                                <p class="pricing-per-month">Per / month</p>
+                            </div>
+                        </div>
+                        <p class="pricing-text-opis">Only 2 Operators</p>
+                        <p class="pricing-text-opis">Notifications</p>
+                        <p class="pricing-text-opis">Landing Pages</p>
+
+                        <button class="pricing-btn" type="button">Order Now</button>
+
+                    </li>
+                    <li class="pricing-items">
+                        <h3 class="pricing-subtitle">Standard</h3>
+                        <p class="pricing-subtext">Brief price description</p>
+                        <div class="pricing-card">
+                            <p class="pricing-cost-five">5</p>
+                            <div class="pricing-price">
+                                <p class="pricing-currency-five">$</p>
+                                <p class="pricing-per-month-five">Per / month</p>
+                            </div>
+                        </div>
+                        <p class="pricing-text-opis">5+ Operators</p>
+                        <p class="pricing-text-opis">Notifications</p>
+                        <p class="pricing-text-opis">Landing Pages</p>
+
+                        <button class="pricing-btn-five" type="button">Order Now</button>
+
+                    </li>
+                    <li class="pricing-items">
+                        <h3 class="pricing-subtitle">Premium</h3>
+                        <p class="pricing-subtext">Brief price description</p>
+                        <div class="pricing-card-three">
+                            <p class="pricing-cost">10</p>
+                            <div class="pricing-price">
+                                <p class="pricing-currency">$</p>
+                                <p class="pricing-per-month">Per / month</p>
+                            </div>
+                        </div>
+                        <p class="pricing-text-opis">10+ Operators</p>
+                        <p class="pricing-text-opis">Notifications</p>
+                        <p class="pricing-text-opis">Landing Pages</p>
+
+                        <button class="pricing-btn" type="button">Order Now</button>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!--#endregion Pricing-->
-    </main>
 
 
+        <!--#region Feedback-->
 
-    <footer class="footer">
-        <div>
-            <a href="./index.html" class="logo">
-                <img src="./images/logo.svg" alt="Logo" width="40" height="36" class="logo-img">
-                Product
-            </a>
-            <ul class="footer-list-img">
-                <li class="footer-item-img">
-                    <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-instagram"></use>
+        <section class="container container-feedback">
+            <br class="feedback">
+            <h2 class="feedback-title">What Clients Say</h2>
+            <p class="feedback-text">Problems trying to resolve the conflict between<br>
+                the two major realms of Classical physics: Newtonian mechanics</p>
+            <ul class="feedback-list">
+                <li class="feedback-items">
+                    <svg class="feedback-star" width="106" height="18">
+                        <use href="/images/icons.svg#icon-star"></use>
                     </svg>
+                    <p class="feedback-subtext">Product helps you see how many
+                        more days you need to work to
+                        reach your financial goal.</p>
+                    <div class="feedback-ari">
+                        <img src="./images/ellipse-2.png" alt="ellipse" width="50" height="50">
+                        <div class="feedback-subtitle-subtext-p">
+                            <h3 class="feedback-subtitle">Wahid Ari</h3>
+                            <p class="feedback-subtext-p">Designer</p>
+                        </div>
+                    </div>
                 </li>
-                <li class="footer-item-img">
-                    <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-facebook"></use>
+                <li class="feedback-items">
+                    <svg class="feedback-star" width="106" height="18">
+                        <use href="/images/icons.svg#icon-star"></use>
                     </svg>
+                    <p class="feedback-subtext">Product helps you see how many
+                        more days you need to work to
+                        reach your financial goal.</p>
+                    <div class="feedback-ari">
+                        <img src="./images/ellipse1.png" alt="ellipse" width="50" height="50">
+                        <div class="feedback-subtitle-subtext-p">
+                            <h3 class="feedback-subtitle">Wahid Ari</h3>
+                            <p class="feedback-subtext-p">Designer</p>
+                        </div>
+                    </div>
                 </li>
-                <li class="footer-item-img">
-                    <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-twitter"></use>
+                <li class="feedback-items">
+                    <svg class="feedback-star" width="106" height="18">
+                        <use href="/images/icons.svg#icon-star"></use>
                     </svg>
+                    <p class="feedback-subtext">Product helps you see how many
+                        more days you need to work to
+                        reach your financial goal.</p>
+                    <div class="feedback-ari">
+                        <img src="./images/avatar-7.png" alt="ellipse" width="50" height="50">
+                        <div class="feedback-subtitle-subtext-p">
+                            <h3 class="feedback-subtitle">Wahid Ari</h3>
+                            <p class="feedback-subtext-p">Designer</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
+            </div>
+
+        </section>
+
+        <!--#endregion Feedback-->
+
+        <!--#region Promo-->
+
+        <section class="container container-promo">
+            <div class="promo">
+                <p class="promo-title">Join 100 Compannies who<br> boost their business with Product</p>
+                <button class="promo-btn" type="button">Get This</button>
+            </div>
+            <img class="promo-img" src="/images/screen.png" width="351" height="331">
+
+        </section>
+
+        <!--#endregion Promo-->
+    </main>
+
+    <!--#region Footer-->
+
+    <footer>
+        <div class="container container-footer">
+            <div class="footer-logo">
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo.svg" alt="Logo" width="40" height="36" class="logo-img">
+                    Product
+                </a>
+                <ul class="footer-list-icon">
+                    <li class="footer-item-icon">
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-item-icon">
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-item-icon">
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
 
             <ul class="footer-list-contact">
-                <li>
-                    <p>Resource</p>
-                    <p>About Us Blog Contac</p>
+                <li class="footer-item-resourse">
+                    <p class="footer-text-contact"><b>Resource</b></p>
+                    <ul class="footer-sublist-contact">
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">About Us</a>
+                        </li>
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">Blog</a>
+                        </li>
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">Contac</a>
+                        </li>
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">FAQ</a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <p>Legal Stuff</p>
-                    <p>Disclaimer Financing</p>
+                <li class="footer-item-resourse">
+                    <p class="footer-text-contact"><b>Legal Stuff</b></p>
+                    <ul class="footer-sublist-contact">
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">Disclaimer</a>
+                        </li>
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">Financing</a>
+                        </li>
+                        <li class="footer-subitems-resourse">
+                            <a class="footer-resourse-contact" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
                 </li>
-
-                <p>knowing you're always on the best energy deal.
+            </ul>
+            <div class="footer-form">
+                <p class="footer-form-text"><b>knowing you're always on the best energy deal.</b>
                 </p>
                 <form>
-                    <label>
-                        <svg width="18" height="28">
+                    <div class="form-phone">
+
+                        <input class="form-input" id="tel" type="text" name="tel" placeholder="Enter your phone number">
+                        <svg class="form-icon" width="18" height="28">
                             <use href="./images/icons.svg#icon-mobile-screen"></use>
                         </svg>
-                        <input>
-
-                    </label>
-                    <button type="button">Sign up Now</button>
+                    </div>
+                    <button class="form-btn" type="button">Sign up Now</button>
                 </form>
-                <p>Made With Love By Figmaland All Right Reserved
-                </p>
+            </div>
 
         </div>
-
+        <p class="footer-text-finish">Made With Love By Figmaland All Right Reserved
+        </p>
     </footer>
 
-
+    <!--#endregion Footer-->
 
 </body>
 

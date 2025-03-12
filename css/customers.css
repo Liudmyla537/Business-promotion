@@ -1,0 +1,551 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #22343d;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* #region HEADER  */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 237px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.header-nav {
+  margin-right: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-nav-link {
+  display: block;
+  padding: 26px 0;
+  line-height: 1.75;
+  color: #22343d;
+}
+
+.current {
+  font-weight: 600;
+}
+
+.header-btn-list {
+  display: flex;
+  gap: 21px;
+}
+
+.header-btn {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  min-width: 105px;
+  height: 42px;
+  font-family: inherit;
+  font-weight: 600;
+  text-align: center;
+  color: #173a56;
+  background-color: transparent;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #02897a;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* #endregion HEADER  */
+
+/* #region Our Clients */
+
+
+.container-our-clients {
+  width: 890px;
+  padding-top: 100px;
+  padding-bottom: 117px;
+}
+
+.our-clients-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-clients-list {
+  display: flex;
+  gap: 64px;
+}
+
+.our-clients-items {
+  flex-basis: calc((100% - 192px) / 4);
+}
+
+/* #endregion Our Clients */
+
+/* #region Why Choose Product */
+
+.choose-product {
+  background-color: #f5f5f5;
+}
+
+.choose-product-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.choose-product-list {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 68px;
+}
+
+.choose-product-items {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 32px 37px 34px 38px;
+  width: 350px;
+  height: 305px;
+  gap: 30px;
+}
+
+.choose-product-icon {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #fff;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.icon-green {
+  background-color: #02897a;
+}
+
+.icon-red {
+  background-color: #f03e3d;
+}
+
+.icon-blue {
+  background-color: #4d8dff;
+}
+
+
+.choose-product-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.37;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.choose-product-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+/* #endregion Why Choose Product */
+
+/* #region How Product Work? */
+
+
+.container-product-work {
+  width: 1027px;
+}
+
+.product-work-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 101px;
+}
+
+
+.product-work-card {
+  display: flex;
+  align-items: center;
+  max-width: 1027px;
+  margin-top: 73px;
+  margin-bottom: 100px;
+
+}
+
+.product-work-step1 {
+  margin-top: 35px;
+  margin-bottom: 34px;
+  max-width: 438px;
+  margin-left: 89px;
+  display: block
+}
+
+.product-work-step2 {
+  margin-top: 35px;
+  margin-bottom: 34px;
+  max-width: 438px;
+  margin-right: 76px;
+  display: block
+}
+
+.product-work-text {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.product-work-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+
+}
+
+.product-work-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.step3 {
+  margin-bottom: 73px;
+}
+
+.product-work-btn {
+  display: block;
+  border-radius: 8px;
+  min-width: 224px;
+  height: 44px;
+  background-color: #02897a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border: transparent;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 115px;
+}
+
+/* #endregion How Product Work? */
+
+/* #region Business */
+
+.business {
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+.container-business {
+  margin-bottom: 150px;
+}
+
+.business-title {
+  font-weight: 700;
+  font-size: 32px;
+  width: 537px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 35px;
+  margin-bottom: 93px;
+}
+
+.business-list {
+  display: flex;
+  justify-content: center;
+  gap: 227px;
+  padding-bottom: 45px;
+}
+
+.business-items {
+  width: 248px;
+
+}
+
+.business-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.business-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.business-sublist {
+  margin-bottom: 12px;
+}
+
+.business-subitems {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+}
+
+.business-subtitle-four {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000;
+}
+
+/* #endregion Busines */
+
+/* #region Promo */
+
+.container-promo {
+  border-radius: 32px;
+  width: 968px;
+  /* height: 345px; */
+  background: #02897a;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  width: 510px;
+  height: 144px;
+  margin-top: 49px;
+  margin-bottom: 46px;
+  margin-left: 51px;
+  margin-right: 10px;
+}
+
+.promo-btn {
+  display: block;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  margin-left: 51px;
+  padding: 0;
+}
+
+.promo .img {
+  margin-right: 46px;
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  max-width: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* #endregion Promo  */
+
+/* #region Footer */
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 150px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  display: block;
+  width: 178px;
+  margin-right: 146px;
+
+}
+
+.footer-list-icon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 18px;
+  gap: 16px;
+  width: 152px;
+}
+
+.footer-item-icon {
+  width: calc((100% - 32px) / 3);
+  cursor: pointer;
+}
+
+.footer-resourse {
+  width: 118px;
+  height: 205px;
+  margin-right: 129px;
+}
+
+.footer-legal {
+  width: 118px;
+  height: 205px;
+  margin-right: 83px;
+}
+
+.footer-list-contact {
+  display: flex;
+  position: relative;
+  gap: 129px;
+}
+
+.footer-text-contact {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+}
+
+.footer-resourse-contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.19;
+  color: #22343d;
+}
+
+.footer-form {
+  max-width: 325px;
+}
+
+.footer-form-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 30px;
+}
+
+.form-phone {
+  display: flex;
+  align-items: center;
+  background: #F1F5F9;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 25px;
+
+}
+
+.form-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: #06C755;
+}
+
+.form-input {
+  width: 325px;
+  height: 48px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  outline: transparent;
+  color: #22343d;
+  padding-left: 42px;
+
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
+}
+
+.form-btn {
+  width: 131px;
+  height: 39px;
+  background-color: #02897a;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-text-finish {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* #endregion Footer */
